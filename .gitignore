@@ -38,3 +38,6 @@ results/
 build/
 dist/
 *.egg-info/
+
+# Streamlit agent skills
+.agents/skills/developing-with-streamlit
