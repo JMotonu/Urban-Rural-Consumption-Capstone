@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Raw and sensitive/large datasets
+*.dta
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.sas7bdat
+*.parquet
+
+# Generated outputs
+figures/
+outputs/
+results/
+
+# Python build files
+build/
+dist/
+*.egg-info/
