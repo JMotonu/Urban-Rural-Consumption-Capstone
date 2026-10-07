@@ -23,6 +23,9 @@ __pycache__/
 # Raw and sensitive/large datasets
 *.dta
 *.csv
+
+# Allow the processed dataset used by Streamlit
+!data/processed/analysis_dataset.csv
 *.xlsx
 *.xls
 *.sav
