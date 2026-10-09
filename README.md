@@ -347,7 +347,11 @@ Kenya
 https://github.com/JMotonu/Urban-Rural-Consumption-Capstone
 
 **Live Streamlit Dashboard:**  
-Add the final Streamlit Community Cloud URL here after deployment.
+https://urban-rural-consumption-capstone-ohlkfgoufgbtdeauyutcax.streamlit.app/
+
+**Medium Article:** 
+https://medium.com/@mtnjosephat/urban-vs-rural-consumption-in-kenya-from-household-data-to-an-interactive-data-story-e4790fe62249
+
 
 ---
 
