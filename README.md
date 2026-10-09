@@ -352,6 +352,9 @@ https://urban-rural-consumption-capstone-ohlkfgoufgbtdeauyutcax.streamlit.app/
 **Medium Article:** 
 https://medium.com/@mtnjosephat/urban-vs-rural-consumption-in-kenya-from-household-data-to-an-interactive-data-story-e4790fe62249
 
+**Slides:**
+https://docs.google.com/presentation/d/1g8hU-81q7y967PhYeUEkSYim9K2Nu219/edit?slide=id.p1#slide=id.p1
+
 
 ---
 
