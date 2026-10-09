@@ -546,6 +546,6 @@ st.download_button(
 st.divider()
 
 st.caption(
-    "Academic capstone | KCHS 2021 | CRISP-DM | "
-    "Descriptive statistics, hypothesis testing, A/B Comparison,and correlation analysis"
+    "Project capstone | KCHS 2021 | CRISP-DM | "
+    "Descriptive statistics, hypothesis testing, A/B Comparison, and correlation analysis"
 )
