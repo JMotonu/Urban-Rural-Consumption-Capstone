@@ -1,7 +1,7 @@
 [project]
 name = "pydatacapstone"
 version = "0.1.0"
-description = "Add your description here"
+description = "Kenya Urban_Rural Consumption Project"
 readme = "README.md"
 authors = [
     { name = "JMotonu", email = "mtnjosephat@gmail.com" }
