@@ -209,10 +209,10 @@ fig1 = px.bar(
     hover_data=["count", "std"]
 )
 
-st.plotly_chart(fig1, use_container_width=True)
+st.plotly_chart(fig1, width="stretch")
 
 with st.expander("View Figure 1 summary data"):
-    st.dataframe(urban_rural, use_container_width=True)
+    st.dataframe(urban_rural, width="stretch")
 
 
 # ============================================================
@@ -243,7 +243,7 @@ fig2 = px.histogram(
     }
 )
 
-st.plotly_chart(fig2, use_container_width=True)
+st.plotly_chart(fig2, width="stretch")
 
 
 # ============================================================
@@ -272,7 +272,7 @@ fig3 = px.scatter(
     }
 )
 
-st.plotly_chart(fig3, use_container_width=True)
+st.plotly_chart(fig3, width="stretch")
 
 
 # ============================================================
@@ -380,10 +380,10 @@ if len(corr_data) >= 2:
         title="Correlation Matrix of Household Consumption Variables"
     )
 
-    st.plotly_chart(fig4, use_container_width=True)
+    st.plotly_chart(fig4, width="stretch")
 
     with st.expander("View correlation matrix"):
-        st.dataframe(corr, use_container_width=True)
+        st.dataframe(corr, width="stretch")
 
 else:
     st.info("Insufficient complete observations for the correlation heatmap.")
@@ -501,9 +501,9 @@ if not ab_df.empty:
         hover_data=["count"]
     )
 
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(fig5, width="stretch")
 
-    st.dataframe(ab_summary, use_container_width=True)
+    st.dataframe(ab_summary, width="stretch")
 
     st.caption(
         f"Median household size in the selected records: {median_size:.2f}. "
@@ -526,7 +526,7 @@ st.write("Explore the records included by the current residence filter.")
 
 st.dataframe(
     filtered.head(100),
-    use_container_width=True
+    width="stretch"
 )
 
 csv_data = filtered.to_csv(index=False).encode("utf-8")
